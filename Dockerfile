@@ -11,11 +11,12 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the scraper script
-COPY scraper.py .
+# Copy the scraper scripts and modules
+COPY main.py .
+COPY scrapers/ ./scrapers/
 
 # Create output directory
 RUN mkdir -p /app/output
 
 # Set the default command
-CMD ["python", "scraper.py"]
+CMD ["python", "main.py", "all"]

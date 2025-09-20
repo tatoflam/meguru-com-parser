@@ -1,6 +1,6 @@
 # Meguru Construction Works Scraper
 
-このプロジェクトは、めぐる組の施工実績ページ（https://meguru-construction.com/works/）から各プロジェクトの詳細情報を自動的に収集し、JSON形式で出力するWebスクレイピングツールです。
+このプロジェクトは、めぐる組の[施工実績ページ](https://meguru-construction.com/works/)から各プロジェクトの詳細情報を自動的に収集し、JSON形式で出力するWebスクレイピングツールです。
 
 ## 取得する情報
 
